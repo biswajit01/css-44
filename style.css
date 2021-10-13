@@ -1,4 +1,5 @@
-*{margin: 0; padding: 0;}
+
+*{margin: 0; padding: 0; }
 
 .container{
     width: 90%;
@@ -47,6 +48,7 @@ nav{
     display: block;
     background-color: #000;
     color: #fff;
+    cursor: pointer;
 }
 .book p:hover{
     background: rgb(252, 252, 252);
@@ -126,18 +128,72 @@ hr{
     font-weight: bold;
     display:block;
     margin-top: 10px;
+    clear: both;
 }
 
 
 /* contact us */
 
 
-
-
-
-
-
-
-
+/* start form */
+form{
+    margin-top: 20px;
+    font-size: 25px;
+    display: block;
+}
+.form {
+    margin-right: 480px;
+    padding-left: 30px;
+    float: left;
+    display: block;
+}
+input {
+    width: 390px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.gen p{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.gen input {
+    width: 50px;
+    height: 25px;
+}
+.gen label{
+    font-size: 31px;
+}
+.books{
+    float: left;
+    display: block;
+}
+.books button {
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: seagreen;
+    color: #fff;
+    float: left;
+    margin-left: 125px;
+    display: block;
+    margin-top: -42px;
+    opacity: 0.8;
+}
+.books button:hover{
+    opacity: 1;
+}
+.books .ak {
+    width: 105px;
+    float: left;
+    margin-right: 30px;
+}
+.books .k {
+    float: left;
+    padding-top: -78px;
+    margin-right: none;
+    margin-left: 282px;
+    margin-top: -87px;
+}
 
 
